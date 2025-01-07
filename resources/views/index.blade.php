@@ -7,11 +7,14 @@
       <div class="texto"> 
         <h1 class="h3 mb-3 font-weight-normal">Calcular juros ao mês</h1>
      </div> 
+     <label for="nome" class="sr-only">Nome</label>
+      <input type="string" id="nome" class="form-control" name="nome" 
+            placeholder="fulano"  required autofocus>
      <label for="capital" class="sr-only">Capital inicial: R$</label>
       <input type="number" id="capital" class="form-control" name="capital" 
             placeholder="100.00" min="10" required autofocus>
        <label for="taxa" class="sr-only">Taxa fixa: %</label> 
-       <input type="number" id="number" class="form-control" name="taxа" 
+       <input type="number" id="number" class="form-control" name="tx" 
        placeholder="10" min="1" required>
         <label for="periodo" class="sr-only">Período de tempo: (meses)</label>
          <input type="number" id="number" class="form-control" name="periodo" 

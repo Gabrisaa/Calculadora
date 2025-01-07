@@ -10,12 +10,12 @@
      <body> 
         <div class="container">
              <div class="imagem"> 
-                <img class="mb-4 img" src="{{asset('storage/imagem/logo.png')}}" alt=""
+                <img class="mb-4 img" src="{{asset('storage/imagem/logo.jpg')}}" alt=""
                  width="90" height="90">
                  </div>
                   @hasSection ('content')
                    @yield('content') 
-      @endif 19 
+                  @endif 
     </div>
 </body> 
 </html>

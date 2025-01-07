@@ -13,9 +13,9 @@
 
         @foreach ($dados as $item)
          <div class="row">
-          <div class="col-md-3"> {{$item["mes"]}} </div>
-            <div class="col-md-6"> R$ {{$item["capitalInicial"]}} </div> 
-            <div class="col-md-3"> R$ {{$item["capitalAtualizado"]}} </div>
+          <div class="col-md-3"> Parcela {{$item["mes"]}} </div>
+            <div class="col-md-6">Restante: R$ {{$item["capitalAtualizado"]}} + juros =  </div> 
+            <div class="col-md-3">- Parcela: {{$item["parcela"]}}</div>
          </div> 
             
             @endforeach
